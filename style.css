@@ -1,5 +1,5 @@
 /* Coen Petto. Typewriter treatment set in Garamond: lowercase headings, underlines carry the structure, no symbols. Light only, forest green accent. */
-:root{--bg:#fcfcfa;--fg:#1f2420;--muted:#5f6b62;--green:#2a5c3b;--green-dark:#1b4229;--rule:#cfd8d1;color-scheme:light}
+:root{--bg:#fcfcfa;--fg:#1f2420;--muted:#5f6b62;--green:#0F5132;--green-dark:#0a3a24;--rule:#cfd8d1;color-scheme:light}
 html{background:var(--bg)}
 [hidden]{display:none!important}
 body{background:var(--bg);color:var(--fg);font:18px/1.55 "EB Garamond",Garamond,"Times New Roman",serif;margin:0;padding-block:40px 80px;padding-inline:20px}
