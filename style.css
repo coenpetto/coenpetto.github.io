@@ -17,7 +17,7 @@ h2{font-size:20px;font-weight:600;margin:30px 0 8px;display:inline-block;padding
 p{margin:0 0 10px}
 ul{list-style:none;padding:0 0 0 1.5em;margin:0 0 10px}
 .muted{color:var(--muted)}
-.lbl{color:var(--muted);font-style:italic}
+.lbl{color:var(--muted);text-transform:lowercase;margin-right:.4em}
 .intro{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}
 .intro .headshot{width:280px;height:280px;object-fit:cover;border:1px solid var(--rule);flex:0 0 280px;display:block}
 .intro .t{flex:1 1 300px;min-width:0}
