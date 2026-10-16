@@ -1,0 +1,45 @@
+/* Coen Petto. Typewriter treatment set in Garamond: lowercase headings, underlines carry the structure, no symbols. Light only, forest green accent. */
+:root{--bg:#fcfcfa;--fg:#1f2420;--muted:#5f6b62;--green:#2a5c3b;--green-dark:#1b4229;--rule:#cfd8d1;color-scheme:light}
+html{background:var(--bg)}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font:18px/1.55 "EB Garamond",Garamond,"Times New Roman",serif;margin:0;padding-block:40px 80px;padding-inline:20px}
+.txt{max-width:720px;margin:0 auto}
+a{color:var(--green);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--green-dark)}
+a:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+h1{font-size:22px;font-weight:600;margin:0;display:inline-block;padding-bottom:1px;border-bottom:1px solid var(--green);text-transform:lowercase}
+h1 a{color:var(--fg);text-decoration:none}
+.sub{color:var(--muted);margin:4px 0 0;text-transform:lowercase}
+.nav{margin:18px 0 28px;text-transform:lowercase}
+.nav a{text-decoration:none;margin-right:18px;padding-bottom:1px}
+.nav a.active{color:var(--fg);border-bottom:1px solid var(--fg)}
+h2{font-size:20px;font-weight:600;margin:30px 0 8px;display:inline-block;padding-bottom:1px;border-bottom:1px solid var(--green);text-transform:lowercase}
+p{margin:0 0 10px}
+ul{list-style:none;padding:0 0 0 1.5em;margin:0 0 10px}
+.muted{color:var(--muted)}
+.lbl{color:var(--muted);font-style:italic}
+.intro{display:flex;gap:28px;align-items:flex-start;flex-wrap:wrap}
+.intro .headshot{width:280px;height:280px;object-fit:cover;border:1px solid var(--rule);flex:0 0 280px;display:block}
+.intro .t{flex:1 1 300px;min-width:0}
+.kv span{display:inline-block;min-width:4.5em;color:var(--muted);text-transform:lowercase}
+.kv .cvface{display:inline-block;vertical-align:middle;line-height:0;text-decoration:none}
+.kv .cvface:hover{color:var(--green-dark)}
+.smiley{display:block}
+.quote{margin:32px 0 0;color:var(--muted)}
+.quote blockquote{margin:0;font-style:italic;padding-left:1.5em}
+.quote p{margin:0}
+.quote figcaption{margin-top:6px;padding-left:1.5em;font-size:16px}
+/* projects */
+.proj{margin:0 0 12px;padding-left:1.5em}
+.proj .t{font-weight:600;margin:0}
+.proj .m{color:var(--muted);margin:0;font-size:16px}
+.proj .repo{font-weight:400;font-size:16px;margin-left:.4em}
+/* cv */
+.rows{border-collapse:collapse;width:100%;margin:0 0 10px}
+.rows td{vertical-align:top;padding:4px 0}
+.rows td.y{white-space:nowrap;color:var(--muted);padding-right:1.2em;width:1%;font-variant-numeric:tabular-nums}
+/* photography: every image at column width, no expanding */
+.gallery{display:flex;flex-direction:column;gap:22px;margin:12px 0 8px}
+.gallery img{width:100%;height:auto;display:block;border:1px solid var(--rule)}
+footer{margin-top:48px;padding-top:12px;border-top:1px solid var(--rule)}
+@media (max-width:520px){body{padding-block:24px 60px;font-size:17px}.intro .headshot{width:100%;max-width:280px;height:auto;aspect-ratio:1;flex-basis:auto}}
